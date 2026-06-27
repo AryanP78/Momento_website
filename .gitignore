@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# environment variables
+.env
+.env.local
+
+# build folders
+dist/
+build/
+.next/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# coverage
+coverage/
