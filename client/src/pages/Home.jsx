@@ -3,8 +3,8 @@ import { useDispatch } from "react-redux";
 
 import { fetchPosts } from "../features/posts/postsSlice";
 
-import Posts from "../components/Posts/Posts";
-import Form from "../components/Form/Form";
+import Posts from "../Components/Posts/Posts";
+import Form from "../Components/Form/Form";
 
 function Home() {
   const dispatch = useDispatch();
