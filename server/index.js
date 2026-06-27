@@ -21,8 +21,10 @@ app.use("/posts", postRoutes);
 
 const PORT = process.env.PORT || 8000;
 
+console.log(process.env.MONGO_URI);
+
 mongoose
-  .connect("mongodb://127.0.0.1:27017/memories")
+  .connect(process.env.MONGO_URI)
   .then(() => {
     console.log("MongoDB Connected");
 
